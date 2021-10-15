@@ -76,6 +76,7 @@ width: 1200px;
 .col-sx,
 .col-dx {
     width: 25%;
+    height: 200px;
     margin: 0 auto;
 }
 
@@ -83,6 +84,7 @@ width: 1200px;
 
 .col-cn {
     width: calc(50% - 20px);
+    height: 200px;
     margin: 0 10px;   
 }
 
@@ -90,6 +92,29 @@ width: 1200px;
     float: left;
     height: 180px;
     background-color: lightblue;
+}
+
+.foto-sx {
+    width: 100%;
+    height: 180px;
+    background-image: url('../img/img-1.jpg');
+    background-size: cover;
+}
+
+.foto-cn {
+    width: 100%;
+    height: 180px;
+    background-image: url('../img/banner-2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.foto-dx {
+    width: 100%;
+    height: 180px;
+    background-image: url('../img/img-3.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .fine-pagina {
