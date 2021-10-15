@@ -24,7 +24,7 @@ width: 1200px;
 
 .contenitore {
     width: 80%;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 
@@ -82,12 +82,10 @@ width: 1200px;
 
 
 .articoli {
-    height: 250px;
     margin: 10px 0 5px;
 }
 
 .titolo {
-    height: 50px;
     margin: 30px 0;
 }
 
@@ -99,19 +97,17 @@ width: 1200px;
 .col-sx,
 .col-dx {
     width: 25%;
-    height: 200px;
     margin: 0 auto;
 }
 
 .col-cn {
     width: calc(50% - 20px);
-    height: 200px;
     margin: 0 10px;   
 }
 
 [class*="col-"] {
     float: left;
-    height: 180px;
+
 }
 
 [class*="foto-"] {
