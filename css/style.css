@@ -59,18 +59,41 @@ width: 1200px;
     background-size: cover;
     background-position: center;
     margin: 10px 0;
+    border-radius: 5px;
+    position: relative;
 }
+
+.opacity{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.testo-banner {
+    width: 50%;
+    color: white;
+    font-size: 0.6em;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0 30px 70px;
+}
+
 
 .articoli {
     height: 250px;
-    background-color: blue;
     margin: 10px 0 5px;
 }
 
 .titolo {
     height: 50px;
-    margin: 10px 0;
-    background-color:lightblue;
+    margin: 30px 0;
+}
+
+.colore-grigio {
+    color: lightgray;
+    font-size: 0.6em;
 }
 
 .col-sx,
@@ -79,8 +102,6 @@ width: 1200px;
     height: 200px;
     margin: 0 auto;
 }
-
-
 
 .col-cn {
     width: calc(50% - 20px);
@@ -91,30 +112,26 @@ width: 1200px;
 [class*="col-"] {
     float: left;
     height: 180px;
-    background-color: lightblue;
+}
+
+[class*="foto-"] {
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
 }
 
 .foto-sx {
-    width: 100%;
-    height: 180px;
     background-image: url('../img/img-1.jpg');
-    background-size: cover;
 }
 
 .foto-cn {
-    width: 100%;
-    height: 180px;
     background-image: url('../img/banner-2.jpg');
-    background-size: cover;
-    background-position: center;
 }
 
 .foto-dx {
-    width: 100%;
-    height: 180px;
     background-image: url('../img/img-3.jpg');
-    background-size: cover;
-    background-position: center;
 }
 
 .fine-pagina {
