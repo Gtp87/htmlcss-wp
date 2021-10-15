@@ -6,6 +6,7 @@
 
 html {
     font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -29,7 +30,6 @@ body {
 
 .intestazione {
     height: 100px;
-    background-color: violet;
 }
 
 .contenitore-logo {
@@ -38,7 +38,13 @@ body {
     background-image: url('../img/logo.png');
     background-size: contain;
     background-repeat: no-repeat;
+    margin: 10px 10px;
+}
 
+.menu {
+    text-decoration: none;
+    color: lightgray;
+    font-size: 60%;
 }
 
 
