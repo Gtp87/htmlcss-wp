@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* layout */
+
+.contenitore {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.intestazione {
+    height: 100px;
+    background-color: violet;
+}
+
+.banner {
+    height: 250px;
+    background-color: lightgoldenrodyellow;
+    margin: 10px 0;
+}
+
+.articoli {
+    height: 250px;
+    background-color: blue;
+    margin: 10px 0 5px;
+}
+
+.titolo {
+    height: 50px;
+    margin: 10px 0;
+    background-color:lightblue;
+}
+
+.col-sx,
+.col-dx {
+    width: 25%;
+    margin: 0 auto;
+}
+
+
+
+.col-cn {
+    width: calc(50% - 20px);
+    margin: 0 10px;   
+}
+
+[class*="col-"] {
+    float: left;
+    height: 180px;
+    background-color: lightblue;
+}
+
+.fine-pagina {
+    height: 30px;
+    background-color: purple;
+}
+
+
