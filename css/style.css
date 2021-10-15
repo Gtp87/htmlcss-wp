@@ -51,14 +51,12 @@ width: 1200px;
 
 
 
-
-
 .banner {
-    height: 250px;
+    width: 960px;
+    height: 400px;
     background-image: url('../img/banner.jpg');
     /* background-color: lightgoldenrodyellow; */
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
     margin: 10px 0;
 }
