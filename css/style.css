@@ -11,7 +11,7 @@ html {
 
 
 body {
-  max-width: 1200px;
+width: 1200px;
 }
 
 .clearfix::after {
@@ -34,12 +34,14 @@ body {
 
 .contenitore-logo {
     width: 100px;
-    height: 50px;
-    background-image: url('../img/logo.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: 10px 10px;
+    height: 60px;
 }
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
 
 .menu {
     text-decoration: none;
@@ -50,9 +52,14 @@ body {
 
 
 
+
 .banner {
     height: 250px;
-    background-color: lightgoldenrodyellow;
+    background-image: url('../img/banner.jpg');
+    /* background-color: lightgoldenrodyellow; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 10px 0;
 }
 
