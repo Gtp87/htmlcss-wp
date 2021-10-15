@@ -8,6 +8,11 @@ html {
     font-size: 100%;
 }
 
+
+body {
+  max-width: 1200px;
+}
+
 .clearfix::after {
     content: '';
     display: table;
@@ -21,10 +26,23 @@ html {
     margin: 10px auto;
 }
 
+
 .intestazione {
     height: 100px;
     background-color: violet;
 }
+
+.contenitore-logo {
+    width: 100px;
+    height: 50px;
+    background-image: url('../img/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+
 
 .banner {
     height: 250px;
